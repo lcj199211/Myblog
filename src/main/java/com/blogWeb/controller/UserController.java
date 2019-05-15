@@ -28,6 +28,7 @@ public class UserController {
         return json;
     }
 
+
     @ResponseBody
     @GetMapping("/getUser")
     public String getUser(int userId){
